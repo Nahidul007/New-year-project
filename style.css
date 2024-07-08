@@ -110,6 +110,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
+    margin-top: 60px;
+    margin-bottom: 100px;
 
 }
 
@@ -125,7 +127,7 @@ body{
 
 .leftside h2{
     color: rgb(255, 255, 255);
-    font-family: Merriweather;
+    font-family: "Merriweather", serif;
     font-size: 56px;
     font-weight: 900;
     margin-bottom: 20px;
@@ -162,6 +164,93 @@ body{
     width: 300.16px;
     eight: 320.65px;
 }
+
+/* Holiday code stard here */
+.holiday-container{
+    width: 1020px;
+    height: 986.07px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.holiday-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+
+}
+
+.holiday-text h5{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.holiday-text h1{
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#holiday{
+    color: #FF0000;
+}
+
+.holiday-text p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* .solid-color{
+    width: 1020;
+    height: 232px;
+    background-color: red;
+    position: absolute;
+    top:300px;
+    
+    
+} */
+
+.solid-color{
+    position: absolute;
+    width: 1020px;
+    height: 229px;
+    background-color:#FF0000;
+    top: 700px;
+}
+
+.giftbox{
+
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    top: 40px;
+    right: 150px;
+    z-index: 1;
+  
+
+}
+
+.discount{
+    position: absolute;
+    bottom: 29%;
+    left: 700px;
+    
+}
+
 
 
     
