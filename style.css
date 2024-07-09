@@ -303,7 +303,63 @@ body{
     height: 100%;
 }
 
+/* newslatter sectio stard */
 
+.newslatter-section{
+    width: 1020px;
+    height: 500px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.newslatter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+ 
+.newslatter h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.newslatter p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+
+.newsbtn input{
+    width:  250px;
+    height: 35px;
+    border: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.newsbtn button {
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color: #FF0000;
+    color: white;
+    border-radius: 5px;
+}
 
 
 
