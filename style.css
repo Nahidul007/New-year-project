@@ -251,6 +251,60 @@ body{
     
 }
 
+/* Protfolio code stard here */
+.protfolio-container{
+    width: 1020px;
+    height: 900.07px;
+    margin: 0 auto;
+    margin-top: 80px;
+
+}
+
+.protflio-text h5{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+
+.protflio-text h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.protflio-text p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    
+    
+}
+
+.protfolio-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+
+.prot-item{      
+   width: 325px;
+   height: 340px;
+}
+
+.prot-item img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
 
 
     
